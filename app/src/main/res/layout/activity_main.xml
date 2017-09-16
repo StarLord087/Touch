@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.singh.shekhar.touch.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <ImageButton
+            android:id="@+id/player1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="@android:color/white"
+            android:onClick="player_one"
+            />
+
+        <ImageButton
+            android:id="@+id/player2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:background="#FF2979C8"
+            android:onClick="player_two" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Player One"
+        android:textColor="#FF2979C8"
+        android:textSize="30dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:text="Player Two"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/start_again" />
+
+    <TextView
+        android:id="@+id/score_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clicks :"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/score_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Clicks :"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textColor="#FFEF0667"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text=""
+        android:textColor="#FFEF0667"
+        android:textSize="40dp" />
+    <TextView
+        android:id="@+id/winning_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/start_button"
+        android:layout_marginBottom="25dp"
+        android:textSize="30sp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="start"
+        android:textColor="@android:color/white"
+        android:text="START"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/start_again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Again"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        android:layout_below="@+id/start_button"
+        android:onClick="start"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <string name="app_id">152526634231</string>
+    <string name="package_name">com.singh.shekhar.touch</string>
+    <string name="achievement_tap_the_potential">CgkI9_mumrgEEAIQAQ</string>
+    <string name="achievement_i_am_not_alone">CgkI9_mumrgEEAIQAg</string>
+    <string name="achievement_set_a_highscore">CgkI9_mumrgEEAIQAw</string>
+    <string name="achievement_i_maybe_addicted">CgkI9_mumrgEEAIQBA</string>
+    <string name="achievement_getting_better">CgkI9_mumrgEEAIQBQ</string>
+    <string name="achievement_i_dont_see_the_point">CgkI9_mumrgEEAIQBg</string>
+    <string name="achievement_we_are_all_equals">CgkI9_mumrgEEAIQBw</string>
+    <string name="achievement_player_one_accept_the_defeat">CgkI9_mumrgEEAIQCA</string>
+    <string name="achievement_player_2_accept_the_defeat">CgkI9_mumrgEEAIQCQ</string>
+    <string name="achievement_almost_an_expert">CgkI9_mumrgEEAIQCg</string>
+    <string name="achievement_more_more_more">CgkI9_mumrgEEAIQCw</string>
+    <string name="achievement_yes_again">CgkI9_mumrgEEAIQDA</string>
+    <string name="achievement_10000_times">CgkI9_mumrgEEAIQDQ</string>
+    <string name="achievement_69">CgkI9_mumrgEEAIQDg</string>
+    <string name="achievement_got_a_new_friend">CgkI9_mumrgEEAIQDw</string>
+</resources>
